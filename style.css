@@ -1,0 +1,297 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+	
+	margin: 0;
+}
+
+#logo{
+	
+		
+	vertical-align: center;
+	z-index: 99;
+	
+}
+
+
+
+#menu{
+	position: relative;
+	margin-left: -40px;
+	overflow: hidden;
+	font: 16px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ffffff;
+}
+
+
+#menu li{
+	
+	list-style-type: none;
+	min-width: 150px;
+	
+	text-align: center;
+	float: left;
+}
+
+
+
+
+
+#menu li a{
+
+display: block;
+height: 60px;
+padding: 9px 9px 9px;
+text-decoration: none;
+color: #000000;
+	border: 2px none #219bcd;
+	box-shadow: 0 0 0 #37aad4;
+	opacity: 0.69;
+
+	
+	
+}
+
+
+#menu li a:hover{
+	
+display: block;
+height: 60px;
+padding: 7px 7px 7px;
+text-decoration: none;
+color: #3dadd5;
+
+
+	
+border: 1px solid #bababa;
+}
+
+
+
+
+.title{
+	text-align: center;
+	font: 20px 'Open Sans', sans-serif;
+	letter-spacing: 4px;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	
+}
+
+.title hr{
+	margin-top: 0;
+	
+	height: 2px;
+	width: 200px;
+	
+}
+
+
+.title hr#longer{
+
+margin-top: 0;
+
+height: 2px;
+width: 340px;
+	
+	
+}
+
+
+.aktualnosci{
+	
+
+	margin-left: 12.5%;
+	font-family: 'Open Sans', sans-serif;
+	width: 75%;
+	
+}
+
+.aktualnosci #data{
+	float: left;
+	font-weight: bold;
+	
+}
+
+
+.aktualnosci #text{
+	
+	margin-left: 15%;;
+	display: inline;
+}
+
+
+.aktualnosci #rozwin{
+	margin-left: 90%;
+	font-size: 12px;
+}
+
+.aktualnosci #rozwin:hover{
+	margin-left: 90%;
+	font-size: 12px;
+	color: #3faed6;
+}
+
+
+
+
+.maszyna{
+	
+
+	margin-left: 12.5%;
+	font-family: 'Open Sans', sans-serif;
+	height: 50px;
+	width: 75%;
+	
+}
+
+
+.maszyna:hover{
+	margin-left: 12.5%;
+	font-family: 'Open Sans', sans-serif;
+
+	width: 75%;
+	color: #3faed6;
+	
+}
+
+
+.maszyna #text{
+	
+	margin-left: 45%;;
+	display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+.maszyna #rozwin{
+	margin-left: 90%;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+#turkus{
+	margin-top: 150px;
+	padding: 20px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #009ccd;
+	//height: 100px;
+	text-align: center;
+	
+
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+	padding-bottom: 8.33%;
+
+}
+
+
+
+#footer
+{
+
+	font-family: 'Open Sans', sans-serif;
+	min-height: 100px;
+	text-align: center;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+	padding-bottom: 8.33%;
+}
+
+
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+    
+}
+@media only screen and (min-width: 900px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+    #katalog img{margin-left: 4.5%;}
+    
+    #menu-contener.large
+    {	margin-top: 0;
+    	position: relative;
+    	background-color: #ffffff;
+    	z-index: 99;
+    }
+    
+    
+    #menu-contener.small
+    {
+    
+    	position: fixed;
+    	top: 0px;
+    	width: 100%;
+    	background-color: #ffffff;
+    	z-index: 99;
+    	
+    }
+    
+    
+    #content.large{
+		background-color: #b71010;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+
+#menu-contener.large
+{
+	position: relative;
+	background-color: #ffffff;
+	
+	
+	z-index: 99;
+}
+
+#menu-contener.small
+{
+
+	position: relative;
+	background-color: #ffffff;
+	z-index: 99;
+}
+	
+}
+
+
+
